@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: #572a7b;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 4px rgb(255, 7, 7);
+    justify-content: space-between;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+  }
+  
+  button {
+    padding: 10px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: fit-content;
+  }
+  
+  .task-list button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background-color: #dc3545;
+    transition: background-color 0.3s;
+  }
+  
+  .task-list button:hover {
+    background-color: #b52a37;
+  }
+  
+.task-list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
